@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/wawa"
+    android:layout_height="wrap_content"
+
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.silasonyango.ewe.Home"
+    >
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/lolo"
+        app:layout_heightPercent="33%"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            app:layout_widthPercent="67%"
+            android:layout_width="0dp"
+
+            android:backgroundTint="#8b515d"
+            android:layout_height="match_parent"
+            card_view:cardUseCompatPadding="true"
+            android:id="@+id/bookcard"
+
+            >
+
+            <TextView
+                android:id="@+id/book"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/book"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@+id/bookcard"
+            android:id="@+id/bookmarkcard"
+            app:layout_widthPercent="33%"
+            android:layout_width="0dp"
+
+            android:backgroundTint="#ddb168"
+            android:layout_height="0dp"
+            app:layout_heightPercent="50%"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/annotations"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/annotations"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@+id/bookcard"
+            android:id="@+id/whitetop"
+            android:layout_below="@+id/bookmarkcard"
+            app:layout_widthPercent="33%"
+            android:layout_width="0dp"
+            app:layout_heightPercent="50%"
+
+            android:backgroundTint="#f7f7f5"
+            android:layout_height="0dp"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/lala"
+        app:layout_heightPercent="33%"
+        android:layout_below="@+id/lolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:id="@+id/newscard"
+            app:layout_widthPercent="33.33%"
+            android:layout_width="0dp"
+
+            android:backgroundTint="#4394a7"
+            android:layout_height="0dp"
+            app:layout_heightPercent="50%"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/bookmarks"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/bookmarks"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/nana"
+            android:layout_below="@+id/newscard"
+            app:layout_widthPercent="33.33%"
+            android:layout_width="0dp"
+            app:layout_heightPercent="50%"
+
+            android:backgroundTint="#47b286"
+            android:layout_height="0dp"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/news"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/news"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/signupcard"
+            android:layout_toRightOf="@+id/newscard"
+
+
+            app:layout_widthPercent="33.33%"
+            android:layout_width="0dp"
+
+
+            android:backgroundTint="#47a557"
+            android:layout_height="match_parent"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/wacha"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@+id/signupcard"
+            android:id="@+id/reportcard"
+            app:layout_widthPercent="33.33%"
+            android:layout_width="0dp"
+
+            android:backgroundTint="#9787ac"
+            android:layout_height="0dp"
+            app:layout_heightPercent="50%"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/report"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/report"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@+id/signupcard"
+            android:layout_below="@+id/reportcard"
+            android:id="@+id/websitecard"
+            app:layout_widthPercent="33.33%"
+            android:layout_width="0dp"
+            app:layout_heightPercent="50%"
+
+            android:backgroundTint="#709f73"
+            android:layout_height="0dp"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/notices"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/notices"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/lulu"
+        app:layout_heightPercent="33%"
+        android:layout_below="@+id/lala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:id="@+id/pupucard"
+            app:layout_widthPercent="33%"
+            android:layout_width="0dp"
+            android:backgroundTint="#f7f7f5"
+            android:layout_height="0dp"
+            app:layout_heightPercent="50%"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_below="@+id/pupucard"
+            app:layout_widthPercent="33%"
+            android:layout_width="0dp"
+            app:layout_heightPercent="50%"
+
+            android:backgroundTint="#ad6386"
+            android:layout_height="0dp"
+            card_view:cardUseCompatPadding="true"
+
+            >
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/help"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            app:layout_widthPercent="67%"
+            android:layout_width="0dp"
+            android:layout_toRightOf="@+id/pupucard"
+
+            android:backgroundTint="#986c9f"
+            android:layout_height="match_parent"
+            card_view:cardUseCompatPadding="true"
+            android:id="@+id/eprocurecard"
+
+            >
+
+            <TextView
+                android:id="@+id/website"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="@string/website"
+
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"/>
+
+
+
+        </android.support.v7.widget.CardView>
+    </android.support.percent.PercentRelativeLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

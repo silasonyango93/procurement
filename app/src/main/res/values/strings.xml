@@ -1,0 +1,113 @@
+<resources>
+    <string name="aa">PPADA \n2015</string>
+    <string name="mail">Email</string>
+    <string name="pass">Password</string>
+    <string name="asInventor">As an Inventor</string>
+    <string name="asInvestor">As an Investor</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Register With Us!</string>
+    <string name="first_name">Your Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="forgot_paasword_"><u>Forgot Password?</u></string>
+    <string name="password">Enter your password</string>
+    <string name="log_in">Sign In</string>
+    <string name="app_name">PPADA 2015</string>
+    <string name="icon">Icon</string>
+    <string name="email">Enter your email</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="company">Konza Construction</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="as_guest"><![CDATA[Proceed-->]]></string>
+    <string name="title"><u>PUBLIC PROCUREMENT AND ASSET DISPOSAL ACT</u></string>
+    <string name="home">Home</string>
+    <string name="showcase">Showcase</string>
+    <string name="crowdfund">Crowd Fund</string>
+    <string name="projects">Projects</string>
+    <string name="myCompany">My Company</string>
+    <string name="logout">Log Out</string>
+    <string name="business_idea">Business Idea</string>
+    <string name="contacts">Contacts</string>
+
+    <string name="error_email_required">Email is required</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_password_required">Password is required</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="short_title"><u>1. Short title.</u></string>
+    <string name="interpretation"><u>2. Interpretation.</u></string>
+    <string name="guiding_principles"><u>3. Guiding principles.</u></string>
+    <string name="application_of_act"><u>4. Application of Act.</u></string>
+    <string name="conflicts_acts"><u>5. Conflicts with other Acts.</u></string>
+    <string name="conflicts_international"><u>6. Conflicts with international agreements.</u></string>
+    <string name="role_treasury"><u>7. Role of the National Treasury in Public Procurement and Assets Disposal.</u></string>
+
+    <string name="public_regulatory"><u>8. The Public Procurement Regulatory Authority.</u></string>
+    <string name="functions_authority"><u>9. Functions of Authority.</u></string>
+    <string name="regulatory_board"><u>10. Public Procurement Regulatory Board.</u></string>
+    <string name="qualifications"><u>11. Qualifications of members of the Board.</u></string>
+    <string name="functions_board"><u>12. Functions of the Board.</u></string>
+    <string name="tenure_office"><u>13. Tenure of office.</u></string>
+    <string name="board_procedure"><u>14. Procedures of the Board.</u></string>
+    <string name="director_general"><u>15. Director-General of the Authority.</u></string>
+    <string name="term_of_office"><u>16. Term of office of Director-General.</u></string>
+    <string name="functions"><u>17. Functions of the Director-General.</u></string>
+
+    <string name="search">&#xf002;</string>
+    <string name="share">&#xf015;</string>
+    <string name="save">&#xf02e;</string>
+
+    <string name="spinner_title1">PART I – PRELIMINARY</string>
+    <string name="spinner_title2">PART II – BODIES INVOLVED IN THE REGULATION OF PUBLIC PROCUREMENT AND ASSET DISPOSAL</string>
+    <string name="spinner_title3">PART III – COUNTY GONERNMENT RESPONSIBILITIES WITH RESPECT TO PUBLIC PROCUREMENT AND ASSET DISPOSAL</string>
+    <string name="spinner_title4">PART IV — POWERS TO ENSURE COMPLIANCE  </string>
+    <string name="spinner_title5">PART V — INTERNAL ORGANISATION OF PROCURING ENTITIES </string>
+    <string name="spinner_title6">PART VI —GENERAL PROCUREMENT PRINCIPLES  </string>
+    <string name="spinner_title7">PART VII — BASIC PROCUREMENT RULES </string>
+    <string name="spinner_title8">PART VIII — CLASSIFIED PROCUREMENT METHODS AND PROCEDURES</string>
+    <string name="spinner_title9">PART IX — METHODS OF PROCUREMENT</string>
+    <string name="spinner_title10">PART X— PROCUREMENT OF CONSULTANCY SERVICES</string>
+    <string name="spinner_title11">PART XI—PROCUREMENT CONTRACTS </string>
+    <string name="spinner_title12">PART XII — PREFERENCES AND RESERVATION IN PROCUREMENT </string>
+    <string name="spinner_title13">PART XIII — INVENTORY CONTROL, ASSET AND STORES MANAGEMENT AND DISTRIBUTION</string>
+    <string name="spinner_title14">PART XIV — DISPOSAL OF ASSETS</string>
+    <string name="spinner_title15">PART XV — ADMINISTRATIVE REVIEW OF PROCUREMENT AND DISPOSAL PROCEEDINGS</string>
+    <string name="spinner_title16">PART XVI — OFFENCES AND SANCTIONS</string>
+    <string name="spinner_title17">PART XVII —POLICY OPERATIONALIZATION AND REVIEW</string>
+    <string name="spinner_title18">PART XVIII — REPEAL, TRANSITION AND SAVINGS PROVISIONS</string>
+    <string name="spinner_title19">FIRST SCHEDULE</string>
+    <string name="spinner_title20">SECOND SCHEDULE</string>
+    <string name="spinner_title21">THIRD SCHEDULE</string>
+
+
+    <string name="restrictions"><u>18. Restrictions on activities of Director-General.</u></string>
+    <string name="termsandconditions"><u>19. Terms and conditions of service of Director-General and staff.</u></string>
+    <string name="vacancyofoffice"><u>20. Vacancy of office.</u></string>
+    <string name="removal"><u>21. Removal of Director-General.</u></string>
+    <string name="actingdirectorgeneral"><u>22. Acting Director-General.</u></string>
+    <string name="title_activity_home">Home</string>
+    <string name="book">&#xf02d;\nThe Act</string>
+    <string name="annotations">&#xf03a;\nNotes</string>
+    <string name="report">&#xf080;\nReports</string>
+    <string name="bookmarks">&#xf02e;\nBookmarks</string>
+    <string name="notices">&#xf0f3;\nVisit our\nwebsite</string>
+    <string name="news">&#xf073;\nNews</string>
+    <string name="help">&#xf0f0;\nOur Help desk</string>
+    <string name="website">&#xf26b;\ne-Procure</string>
+    <string name="wacha">&#xf2bb;\nSign Up</string>
+
+
+    <string name="title_activity_cards">Cards</string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="process_text_action_name">Annote</string>
+
+    <string name="staffofauthority"><u>23. Staff of the Authority</u></string>
+    <string name="financialarrangements"><u>24. Financial arrangements</u></string>
+    <string name="audit"><u>25. Audit</u></string>
+    <string name="title_activity_news">News</string>
+</resources>

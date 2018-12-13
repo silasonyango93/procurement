@@ -1,0 +1,45 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+
+
+    <AutoCompleteTextView
+android:gravity="center"
+        android:textCursorDrawable="@null"
+        android:id="@+id/editText1"
+        android:hint="Search"
+        android:layout_width="0dp"
+        app:layout_widthPercent="85%"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:textColor="#000000"
+        android:background="@drawable/search_shape">
+
+        <requestFocus />
+
+    </AutoCompleteTextView>
+
+   <TextView
+        android:id="@+id/dot"
+       android:text="@string/search"
+        android:layout_width="0dp"
+       app:layout_widthPercent="15%"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+       android:textColor="#000"
+       android:paddingLeft="5dp"
+       android:paddingRight="2dp"
+
+
+        android:layout_toRightOf="@+id/editText1"
+        />
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

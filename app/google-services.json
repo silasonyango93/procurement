@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805939684392",
+    "firebase_url": "https://ppra-app-api.firebaseio.com",
+    "project_id": "ppra-app-api",
+    "storage_bucket": "ppra-app-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805939684392:android:a2bbbe881ab57a0b",
+        "android_client_info": {
+          "package_name": "com.example.silasonyango.ewe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805939684392-tcmfofh78kcf9sq26vlo80bjnssbcg5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Lft1ZH4ka9rQWZ8nMZ8lFGgrqRCMXSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
