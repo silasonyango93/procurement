@@ -36,9 +36,10 @@
         </service>
 
         <activity android:name=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.example.silasonyango.ewe.Home" /></activity>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.silasonyango.ewe.Home" />
+        </activity>
         <activity android:name=".SignIn" />
         <activity android:name=".Landing" />
         <activity android:name=".SignUp" />
@@ -73,6 +74,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.silasonyango.ewe.SearchResults" />
         </activity>
+        <activity android:name=".TermsAndConditionsActivity"></activity>
     </application>
 
 </manifest>

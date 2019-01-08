@@ -244,8 +244,9 @@ public class Home extends AppCompatActivity
         tvHelp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final Animation animShake = AnimationUtils.loadAnimation(getBaseContext(), R.anim.shake);
-                tvHelp.startAnimation(animShake);
+                Intent i = new Intent(Home.this,TermsAndConditionsActivity.class);
+                startActivity(i);
+
 
 
 
