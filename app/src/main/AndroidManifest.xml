@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.silasonyango.ewe">
+    package="com.ppada.silasonyango.procurement">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".Mimi"
+        android:name="com.ppada.silasonyango.procurement.Mimi"
         android:allowBackup="true"
         android:icon="@mipmap/tata"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
         <activity
-            android:name=".Home"
+            android:name="com.ppada.silasonyango.procurement.Home"
             android:label="@string/app_name"
             android:theme="@style/MyMaterialTheme">
             <intent-filter>
@@ -24,25 +25,25 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".MyFirebaseMessagingService">
+        <service android:name="com.ppada.silasonyango.procurement.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".MyFirebaseInstanceIDService">
+        <service android:name="com.ppada.silasonyango.procurement.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ppada.silasonyango.procurement.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.silasonyango.ewe.Home" />
+                android:value="com.ppada.silasonyango.procurement.Home" />
         </activity>
-        <activity android:name=".SignIn" />
-        <activity android:name=".Landing" />
-        <activity android:name=".SignUp" />
+        <activity android:name="com.ppada.silasonyango.procurement.SignIn" />
+        <activity android:name="com.ppada.silasonyango.procurement.Landing" />
+        <activity android:name="com.ppada.silasonyango.procurement.SignUp" />
 
         <!--
      ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -53,28 +54,28 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".Cards"
+            android:name="com.ppada.silasonyango.procurement.Cards"
             android:label="@string/title_activity_cards"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SearchResults"
+            android:name="com.ppada.silasonyango.procurement.SearchResults"
             android:label="@string/title_activity_search_results"
-            android:parentActivityName=".Home"
+            android:parentActivityName="com.ppada.silasonyango.procurement.Home"
             android:theme="@style/MyMaterialTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.silasonyango.ewe.Home" />
+                android:value="com.ppada.silasonyango.procurement.Home" />
         </activity>
         <activity
-            android:name=".News"
+            android:name="com.ppada.silasonyango.procurement.News"
             android:label="@string/title_activity_news"
-            android:parentActivityName=".SearchResults"
+            android:parentActivityName="com.ppada.silasonyango.procurement.SearchResults"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.silasonyango.ewe.SearchResults" />
+                android:value="com.ppada.silasonyango.procurement.SearchResults" />
         </activity>
-        <activity android:name=".TermsAndConditionsActivity"></activity>
+        <activity android:name="com.ppada.silasonyango.procurement.TermsAndConditionsActivity"></activity>
     </application>
 
 </manifest>

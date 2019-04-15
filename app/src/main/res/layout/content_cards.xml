@@ -9,7 +9,7 @@
 
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.silasonyango.ewe.Home"
+    tools:context="com.ppada.silasonyango.procurement.Home"
     >
 
     <android.support.percent.PercentRelativeLayout
